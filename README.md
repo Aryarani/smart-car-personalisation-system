@@ -16,7 +16,7 @@ AI-powered personalized car settings that learn from driver behavior.
 ```bash
 cd smart-car-system/backend
 python3 -m venv venv
-source venv/bin/activate
+.\venv\Scripts\Activate.ps1
 pip install -r requirements.txt
 uvicorn main:app --reload --port 8000
 ```
